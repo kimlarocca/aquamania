@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+
+$font-family: 'Fira Sans', sans-serif;
+
+h1 {
+	font-size: 100px;
+	font-weight: 700;
+	color: $primary-color;
+	margin-bottom: 5px;
+	text-shadow:
+					1px 0px 1px #d43341, 0px 1px 1px #bd2734,
+					2px 1px 1px #d43341, 1px 2px 1px #bd2734,
+					3px 2px 1px #d43341, 2px 3px 1px #bd2734,
+					4px 3px 1px #d43341, 3px 4px 1px #bd2734,
+					5px 4px 1px #d43341, 4px 5px 1px #bd2734,
+					6px 5px 1px #d43341, 5px 6px 1px #bd2734,
+					7px 6px 1px #d43341;
+	@media all and (max-width: $breakpoint-tablet) {
+		font-size: 80px;
+		margin-bottom: 10px;
+	}
+	@media all and (max-width: $breakpoint-mobile) {
+		font-size: 60px;
+		margin-bottom: 10px;
+	}
+}
+h2 {
+	font-size: 32px;
+	font-weight: 400;
+	color: $primary-color;
+	line-height: 37px;
+	text-transform: uppercase;
+}
+h3 { 
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: $primary-color;
+	line-height: 37px;
+}
+h4 {
+	font-size: 16px;
+	font-weight: 400;
+}
+p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+	.larger {
+		font-size: 22px;
+	}
+}
+
+@media all and (max-width: $breakpoint-tablet) {
+	
+}
+@media all and (max-width: $breakpoint-mobile) {
+	
+}

@@ -1,0 +1,73 @@
+// Design
+$width: 100%;
+$margin: 25px;
+
+//Global colors
+$background-color: #fff;
+$gray: #ccc;
+$light-gray: #e3e3e3;
+$dark-gray: #333;
+$primary-color: #013349;
+$secondary-color: #d43341;
+$tertiary-color: #7ac9d6;
+$quaternary-color: #7ac9d6;
+
+//Font colors
+$font-color: #333;
+$link-color: #d43341;
+$link-color-hover: #d43341;
+
+.white {
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.gray {
+  color: $gray;
+}
+.light-gray {
+  color: $light-gray;
+}
+.dark-gray {
+  color: $dark-gray;
+}
+.primary-color {
+  color: $primary-color;
+}
+.secondary-color {
+  color: $secondary-color;
+}
+.tertiary-color {
+  color: $tertiary-color;
+}
+.quaternary-color {
+  color: $quaternary-color;
+}
+.white-bg {
+  color: #fff;
+}
+.black-bg {
+  background-color: #000;
+}
+.gray-bg {
+  background-color: $gray;
+}
+.light-gray-bg {
+  background-color: $light-gray;
+}
+.dark-gray-bg {
+  background-color: $dark-gray;
+}
+.primary-color-bg {
+  background-color: $primary-color;
+}
+.secondary-color-bg {
+  background-color: $secondary-color;
+}
+.tertiary-color-bg {
+  background-color: $tertiary-color;
+}
+.quaternary-color-bg {
+  background-color: $quaternary-color;
+}
